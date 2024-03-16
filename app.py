@@ -55,7 +55,6 @@ def get_conversational_chain():
 
 import streamlit as st
 import faiss  
-pytesseract.pytesseract.tesseract_cmd = '/path/to/tesseract'
 
 
 def get_text_from_image(image_file):
